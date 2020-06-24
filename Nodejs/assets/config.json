@@ -1,0 +1,18 @@
+{
+	"rootAPI": 			"/api/v1",
+	"port": 			8080,
+	"db": {
+		"host":			"localhost",
+		"user":			"root",
+		"password": 	"root",
+		"database": 	"nodejs",
+		"socketPath": 	"/Applications/MAMP/tmp/mysql/mysql.sock"
+	},
+	"errors": {
+		"wrongId":				"wrong id",
+		"wrongMaxValue": 		"wrong max value",
+		"nameAlreadyTaken": 	"name already taken",
+		"noNameValue": 			"no name value",
+		"sameName": 			"same name"
+	}
+}
